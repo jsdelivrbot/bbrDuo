@@ -19,5 +19,18 @@ body{
     font-size: 30px;
     font-weight: 15px;
     font-family: Helvetica;
-    
+    display: table;
+}
+#next{
+    margin: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    background: red;
+    border-radius: 30%;
+    padding: 3%;
+    color: green;
+    font-size: 20px;
+    font-family: Helvetica;
 }
