@@ -1,0 +1,17 @@
+{
+  "name": "bbrduo",
+  "version": "1.0.0",
+  "description": "Un juego de bbr hehco por noobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beber"
+  ],
+  "author": "Yasmany y Dominik",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
