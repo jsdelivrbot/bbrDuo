@@ -1,0 +1,23 @@
+
+body{
+    background-color: #778ca3;
+    background-position: center center;
+    background-attachment: cover;
+}
+
+#uno{
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d1d8e0;
+    height: 8%;
+    border-radius: 15%;
+    padding: 3%;
+    color: black;
+    font-size: 30px;
+    font-weight: 15px;
+    font-family: Helvetica;
+    
+}
