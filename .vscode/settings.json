@@ -1,0 +1,29 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.gitignore": true,
+        "**/.vscode": true,
+        "**/.babelrc": true,
+        "**/.eslintignore": true,
+        "**/.eslintrc": true,
+        "**/package-lock.json": true,
+        "**/package.json": true,
+        "**/README.md": true,
+        "**/webpack.config.js": true,
+        "**/node_modules": true,
+        "**/yasgo.js.map": true,
+        "**/yasgo.min.js": true,
+        "scripts/": true,
+        "yserver/": true,
+        ".nvmrc": true,
+        "LICENSE": true,
+        "yarn.lock": true,
+        ".travis.yml": true,
+        "test/": true,
+        "dist/": true
+    }
+}

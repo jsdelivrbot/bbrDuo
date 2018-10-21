@@ -4,7 +4,14 @@
   "description": "Un juego de bbr hehco por noobs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --env dev && webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "focus": "node scripts/setMode.js focus",
+    "normal": "node scripts/setMode.js normal",
+    "all": "node scripts/setMode.js all",
+    "server": "cd server && node index.js",
+    "commit": "./scripts/commit.sh",
+    "serve": "http-server -c-1 dist/ -S -C scripts/ssl/cert.pem -K scripts/ssl/key.pem -o"
   },
   "keywords": [
     "beber"
@@ -12,6 +19,7 @@
   "author": "Yasmany y Dominik",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^7.0.0",
     "http-server": "^0.11.1"
   }
 }
