@@ -8,7 +8,7 @@ body{
 #uno{
     margin: 5px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #d1d8e0;
@@ -20,17 +20,24 @@ body{
     font-weight: 15px;
     font-family: Helvetica;
     display: table;
+    text-align: center;
+    box-shadow:  0 8px 15px -5px #00000070;
+    box-align: center;
 }
 #next{
     margin: 5px;
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-80%, -50%);
-    background: red;
+    transform: translate(-50%, -50%);
+    background: #636e72;
     border-radius: 30%;
     padding: 3%;
-    color: green;
-    font-size: 20px;
+    color: #2d3436;
+    font-size: 30px;
     font-family: Helvetica;
+    font-weight: 15px;
+    text-align: center;
+    box-shadow:  0 8px 15px -5px #00000070;
+    
 }

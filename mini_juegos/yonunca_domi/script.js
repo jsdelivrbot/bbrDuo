@@ -1,15 +1,12 @@
 
 let NumdeFrase=0;
 
-
-
 document.addEventListener("onload", Start());
-document.getElementById("next");
-document.addEventListener("onclick", Start());
+document.getElementById("next").addEventListener("click", Start);
 
 function Start(){
     
-    let i= Math.floor(Math.random()*1000);
+    let i= Math.floor(Math.random()*3);
     switch(i){
         case 0:
             i="frase cero";
