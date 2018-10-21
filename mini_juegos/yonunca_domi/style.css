@@ -29,7 +29,7 @@ body{
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     background: #636e72;
     border-radius: 30%;
     padding: 3%;
@@ -39,5 +39,4 @@ body{
     font-weight: 15px;
     text-align: center;
     box-shadow:  0 8px 15px -5px #00000070;
-    
 }

@@ -9,19 +9,28 @@ function Start(){
     let i= Math.floor(Math.random()*3);
     switch(i){
         case 0:
-            i="frase cero";
+            i="Yo nunca he querido liarme con alguno del grupo";
             break;
         case 1:
-            i="primera frase";
+            i="Yo nunca he tenido sexo en un lugar público";
             break;
         case 2:
-            i="segunda frase";
+            i="Yo nunca he grabado un vídeo porno";
             break;
         case 3:
-            i="tercera frase";
+            i="Yo nunca he hecho sexo oral";
             break;
-        default: 
-            i=i;
+        case 4:
+            i="Yo nunca ";
+            break;
+        case 5:
+            i="primera frase";
+            break;
+        case 6:
+            i="segunda frase";
+            break;
+        case 7:
+            i="tercera frase";
             break;
     }
     
