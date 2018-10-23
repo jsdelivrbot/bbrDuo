@@ -4,16 +4,38 @@ document.getElementById("next").addEventListener("click", Start);
 
 var FrasesUsadas= [];
 
+
+
+function arrayContains(arrayWithData, dataToCheck) {
+    var hasIt = false;
+
+    for (var h = 0; h < arrayWithData.length ; h++) {
+        if (arrayWithData[h] === dataToCheck) {
+            hasIt = true;
+            return hasIt;
+        }
+    }
+
+    return hasIt;
+}
+
+var i= Math.floor(Math.random()*10);
 function Start(){
-    
-    let i= Math.floor(Math.random()*10);
-    
-    /*if(i===FrasesUsadas.map()){
+    i= Math.floor(Math.random()*10);
+    function num(){
         i= Math.floor(Math.random()*10);
-    }else{
+        arrayContains(FrasesUsadas, i);
+    }
+
+    if(arrayContains===false){
         FrasesUsadas.push(i);
-    }*/
-    switch(i){
+        return i;
+    }else{
+        num();
+    }
+    
+
+    switch(h){
         case 0:
             i="Yo nunca he querido liarme con alguno del grupo";
             break;
@@ -52,3 +74,26 @@ function Start(){
     document.getElementById("uno").innerHTML= i;
 }
 
+/*let i= Math.floor(Math.random()*10);
+    
+    j= FrasesUsadas.filter(compare());
+
+    vr();
+    
+if(j.length===0){
+        i= Math.floor(Math.random()*10);
+    }else{
+        FrasesUsadas.push(i);
+    }
+    function vr(){
+    if (j.length===null){
+        FrasesUsadas.push(i);
+        return i;
+    }else{
+        i= Math.floor(Math.random()*10);
+    }
+}
+var j= FrasesUsadas.filter(compare);
+function compare(value){
+    return value===i;
+}*/
