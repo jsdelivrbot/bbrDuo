@@ -1,0 +1,49 @@
+{
+    "frases": [
+        {
+            "contenido": "Yo nunca he querido hablar con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido liarme con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido salir de fiesta con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido bailar con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido beber con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido tocar a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido insultar a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido pegar a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he querido acariciar a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        }
+    ]
+}

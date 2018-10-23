@@ -37,6 +37,10 @@
         "**/ext/scrappy": true,
         "**/ext/yahoo": true,
         "**/ext/youtube": true,
-        "**/www": true
+        "**/www": true,
+        "**/yonunca_domi": true,
+        "dummy.html": true,
+        "index.html": true,
+        "index.js": true
     }
 }
