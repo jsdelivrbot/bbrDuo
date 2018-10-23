@@ -1,3 +1,4 @@
+/* global yasgo */
 var playerList = ["Yasmany", "Dominic", "Walter", "Andy", "Laura", "Cristina", "Sandra"];
 var phrases = [];
 var usedPhrases = [];
@@ -12,12 +13,19 @@ function arrContains(arr, item) {
     }
     return false;
 }
+
 function initializeGame() {
     yasgo.load(yasgo.cdn.jquery);
-    yasgo.get("/recursos/frases_interacciones.json").then(function (interacciones) {
-        yasgo.get("/recursos/frases_pensamientos.json").then(function (pensamientos) {
-            phrases = JSON.parse(interacciones).frases;
-            phrases = phrases.concat(JSON.parse(pensamientos).frases);
+    yasgo.get("/recursos/frases_interacciones.json").then(function(interacciones) {
+        yasgo.get("/recursos/frases_pensamientos.json").then(function(pensamientos) {
+            yasgo.get("/recursos/frases_situaciones.json").then(function(situaciones) {
+                yasgo.get("/recursos/frases_conPersonas.json").then(function(conPersonas) {
+                    phrases = JSON.parse(interacciones).frases;
+                    phrases = phrases.concat(JSON.parse(pensamientos).frases);
+                    phrases = phrases.concat(JSON.parse(situaciones).frases);
+                    phrases = phrases.concat(JSON.parse(conPersonas).frases);
+                });
+            });
         });
     });
 }
@@ -34,8 +42,8 @@ function generateRandomPhrase() {
     var randomPhrase = phrases[yasgo.utils.number.int(0, phrases.length - 1)].contenido;
     var randomPlayer = ["alguien del grupo"].concat(playerList)[yasgo.utils.number.int(0, playerList.length)];
 
-    phraseToReturn = randomPhrase.replace("[list.players]", randomPlayer);
-    phraseToReturn = randomPhrase.replace("[list.players]", randomPlayer);
+    phraseToReturn = randomPhrase.replace("[list.players]", "<span class='rndTxt'>" + randomPlayer + "</span>");
+    phraseToReturn = randomPhrase.replace("[list.players]", "<span class='rndTxt'>" + randomPlayer + "</span>");
 
     if (arrContains(usedPhrases, phraseToReturn)) {
         phraseToReturn = generateRandomPhrase();
@@ -47,17 +55,19 @@ function generateRandomPhrase() {
 
 function prueba() {
     var num = 0;
+    usedPhrases = [];
+    $("#spanText").html("0");
     for (var i = 0; i < 50000; i++) {
         try {
             num++;
             var phrase = generateRandomPhrase();
             usedPhrases.push(phrase);
-            $(".textDisplay").html(phrase);
-        } catch (ex) {
+        }
+        catch (ex) {
             break;
         }
 
     }
 
-    console.log(num);
+    $("#spanText").html(num);
 }
