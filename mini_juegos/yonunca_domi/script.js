@@ -2,7 +2,7 @@
 document.addEventListener("onload", Start());
 document.getElementById("next").addEventListener("click", Start);
 
-var FrasesUsadas= [];
+var FrasesUsadas = [];
 
 
 
@@ -19,7 +19,6 @@ function arrayContains(arrayWithData, dataToCheck) {
     return hasIt;
 }
 
-var i= Math.floor(Math.random()*10);
 function Start(){
     i= Math.floor(Math.random()*10);
     function num(){
@@ -73,27 +72,3 @@ function Start(){
     
     document.getElementById("uno").innerHTML= i;
 }
-
-/*let i= Math.floor(Math.random()*10);
-    
-    j= FrasesUsadas.filter(compare());
-
-    vr();
-    
-if(j.length===0){
-        i= Math.floor(Math.random()*10);
-    }else{
-        FrasesUsadas.push(i);
-    }
-    function vr(){
-    if (j.length===null){
-        FrasesUsadas.push(i);
-        return i;
-    }else{
-        i= Math.floor(Math.random()*10);
-    }
-}
-var j= FrasesUsadas.filter(compare);
-function compare(value){
-    return value===i;
-}*/
