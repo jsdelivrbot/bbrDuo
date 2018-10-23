@@ -2,7 +2,7 @@
 document.addEventListener("onload", Start());
 document.getElementById("next").addEventListener("click", Start);
 
-var FrasesUsadas = [];
+var FrasesUsadas= [];
 
 
 
@@ -20,21 +20,23 @@ function arrayContains(arrayWithData, dataToCheck) {
 }
 
 function Start(){
-    i= Math.floor(Math.random()*10);
+     var i= Math.floor(Math.random()*10);
+
     function num(){
         i= Math.floor(Math.random()*10);
-        arrayContains(FrasesUsadas, i);
+        var hasIt= arrayContains(FrasesUsadas, i);
+        return hasIt;
     }
 
-    if(arrayContains===false){
+    if(num===false){
         FrasesUsadas.push(i);
         return i;
     }else{
         num();
     }
-    
 
-    switch(h){
+
+    switch(i){
         case 0:
             i="Yo nunca he querido liarme con alguno del grupo";
             break;
