@@ -166,7 +166,7 @@
             "categoría": "situaciones"
         },
         {
-            "contenido": "Yo nunca he babeado o he sido babeado mientras que me besaba con alguien",
+            "contenido": "Yo nunca he babeado o he sido babeado mientras me besaba con alguien",
             "nivel": "2",
             "categoría": "situaciones"
         },
@@ -222,13 +222,54 @@
         },
         {
             "contenido": "Yo nunca he llamado mamá a mi profesora",
-            "nivel": "5",
+            "nivel": "1",
             "categoría": "situaciones"
         },
         {
             "contenido": "Yo nunca he subido un vídeo a YouTube dando vergüenza ajena",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he participado en una orgía",
             "nivel": "5",
             "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he tragado mis propios fluidos",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he hecho un strip-tease",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he tenido un follamigo",
+            "nivel": "4",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he tenido sexo silencioso",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca lo he hecho teniendo la regla (o teníendola mi pareja)",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he intentado dar celos a otra persona",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he hecho usando chocolate, nata u otro tipo de alimentos",
+            "nivel": "3",
+            "categoría": "situaciones"
         }
+
     ]
 }
