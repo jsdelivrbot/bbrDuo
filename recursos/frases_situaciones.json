@@ -127,18 +127,108 @@
         },
         {
             "contenido": "Yo nunca he mirado al sol voluntariamente",
+            "nivel": "1",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca me he pegado con una puerta",
+            "nivel": "1",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he dejado mocos por todos lados",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he andado desnudo por casa",
+            "nivel": "1",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca lo he hecho en la cama de mis padres (o los suyos)",
             "nivel": "5",
             "categoría": "situaciones"
         },
         {
-            "contenido": "Yo nunca he hecho un trío",
+            "contenido": "Yo nunca he dado o recibido una patada en la entrepierna",
+            "nivel": "4",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he sido pillado practicando sexo por mis padres (o los suyos)",
             "nivel": "5",
             "categoría": "situaciones"
         },
         {
-            "contenido": "Yo nunca he hecho un trío",
+            "contenido": "Yo nunca he escuchado a mis padres teniendo sexo",
             "nivel": "5",
             "categoría": "situaciones"
         },
+        {
+            "contenido": "Yo nunca he babeado o he sido babeado mientras que me besaba con alguien",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca casi la meto donde no era",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he pensado que pudiese tener una ETS",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he sido infiel",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he estado con alguien de este grupo",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he estado con alguien mucho más mayor que yo",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he tomado drogas (no cuentan alcohol y tabaco)",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he dado o recibido un masaje con final feliz",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he robado nada de una tienda",
+            "nivel": "2",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he estado esposado",
+            "nivel": "3",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca me enamoré a primera vista",
+            "nivel": "1",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he llamado mamá a mi profesora",
+            "nivel": "5",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he subido un vídeo a YouTube dando vergüenza ajena",
+            "nivel": "5",
+            "categoría": "situaciones"
+        }
     ]
 }
