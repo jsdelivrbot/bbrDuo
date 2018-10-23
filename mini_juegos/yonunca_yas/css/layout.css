@@ -34,6 +34,10 @@
     background: #81d4fa;
     position: absolute;
     bottom: 0px;
+    transition: all 0.3s;
+}
+.buttonsArea:active{
+    transform: rotateY(15deg);
 }
 
 .goBackContainer {
