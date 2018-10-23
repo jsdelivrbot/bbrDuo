@@ -16,14 +16,17 @@ function arrContains(arr, item) {
 
 function initializeGame() {
     yasgo.load(yasgo.cdn.jquery);
-    yasgo.get("/recursos/frases_interacciones.json").then(function(interacciones) {
-        yasgo.get("/recursos/frases_pensamientos.json").then(function(pensamientos) {
-            yasgo.get("/recursos/frases_situaciones.json").then(function(situaciones) {
-                yasgo.get("/recursos/frases_conPersonas.json").then(function(conPersonas) {
-                    phrases = JSON.parse(interacciones).frases;
-                    phrases = phrases.concat(JSON.parse(pensamientos).frases);
-                    phrases = phrases.concat(JSON.parse(situaciones).frases);
-                    phrases = phrases.concat(JSON.parse(conPersonas).frases);
+    yasgo.get("recursos/frases/interacciones.json").then(function(interacciones) {
+        yasgo.get("recursos/frases/pensamientos.json").then(function(pensamientos) {
+            yasgo.get("recursos/frases/situaciones.json").then(function(situaciones) {
+                yasgo.get("recursos/frases/con_personas.json").then(function(conPersonas) {
+                    yasgo.get("recursos/frases/bailes.json").then(function(bailes) {
+                        phrases = JSON.parse(interacciones).frases;
+                        phrases = phrases.concat(JSON.parse(pensamientos).frases);
+                        phrases = phrases.concat(JSON.parse(situaciones).frases);
+                        phrases = phrases.concat(JSON.parse(conPersonas).frases);
+                        phrases = phrases.concat(JSON.parse(bailes).frases);
+                    });
                 });
             });
         });
