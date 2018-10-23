@@ -1,12 +1,18 @@
 
-let NumdeFrase=0;
-
 document.addEventListener("onload", Start());
 document.getElementById("next").addEventListener("click", Start);
 
+var FrasesUsadas= [];
+
 function Start(){
     
-    let i= Math.floor(Math.random()*3);
+    let i= Math.floor(Math.random()*10);
+    
+    /*if(i===FrasesUsadas.map()){
+        i= Math.floor(Math.random()*10);
+    }else{
+        FrasesUsadas.push(i);
+    }*/
     switch(i){
         case 0:
             i="Yo nunca he querido liarme con alguno del grupo";
@@ -21,18 +27,28 @@ function Start(){
             i="Yo nunca he hecho sexo oral";
             break;
         case 4:
-            i="Yo nunca ";
+            i="Yo nunca me he cagado en los pantalones";
             break;
         case 5:
-            i="primera frase";
+            i="Yo nunca he comido piña";
             break;
         case 6:
-            i="segunda frase";
+            i="Yo nunca he fingido un orgasmo";
             break;
         case 7:
-            i="tercera frase";
+            i="Yo nunca he muerto";
+            break;
+        case 8:
+            i="Yo nunca he saltado en paracaídas";
+            break;
+        case 9:
+            i="Yo nunca he manchado un sofá";
+            break;
+        case 10:
+            i="Yo nunca he usado un spray pimienta";
             break;
     }
     
     document.getElementById("uno").innerHTML= i;
 }
+

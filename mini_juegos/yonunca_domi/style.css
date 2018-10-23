@@ -6,7 +6,8 @@ body{
 }
 
 #uno{
-    margin: 5px;
+    margin-left: 0px;
+    margin-right: 20px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -14,14 +15,14 @@ body{
     background: #d1d8e0;
     height: 8%;
     border-radius: 15%;
-    padding: 3%;
+    padding: 25px;
     color: black;
     font-size: 30px;
     font-weight: 15px;
     font-family: Helvetica;
     display: table;
     text-align: center;
-    box-shadow:  0 8px 15px -5px #00000070;
+    box-shadow: 0 8px 15px -5px #00000070;
     box-align: center;
 }
 #next{
@@ -40,3 +41,6 @@ body{
     text-align: center;
     box-shadow:  0 8px 15px -5px #00000070;
 }
+#next:active{
+    top: 82%;
+  }

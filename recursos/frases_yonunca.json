@@ -13,6 +13,11 @@
             "contenido": "Yo nunca he hablado con [list.players]",
             "nivel": "1",
             "categoría": 1
+        },
+        {
+            "contenido": "Yo nunca he hablado con [list.players]",
+            "nivel": "1",
+            "categoría": 1
         }
     ]
 }
