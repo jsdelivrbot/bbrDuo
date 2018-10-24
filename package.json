@@ -9,9 +9,8 @@
     "focus": "node scripts/setMode.js focus",
     "normal": "node scripts/setMode.js normal",
     "all": "node scripts/setMode.js all",
-    "server": "cd server && node index.js",
     "commit": "./scripts/commit.sh",
-    "serve": "http-server -c-1 dist/ -S -C scripts/ssl/cert.pem -K scripts/ssl/key.pem -o"
+    "start": "http-server -c-1 -p $PORT"
   },
   "keywords": [
     "beber"

@@ -2,39 +2,28 @@
 document.addEventListener("onload", Start());
 document.getElementById("next").addEventListener("click", Start);
 
-var FrasesUsadas = [];
+var FrasesUsadas= [];
 
 
 
-function arrayContains(arrayWithData, dataToCheck) {
-    var hasIt = false;
+function arrContains(arr, item) {
+    var l;
 
-    for (var h = 0; h < arrayWithData.length ; h++) {
-        if (arrayWithData[h] === dataToCheck) {
-            hasIt = true;
-            return hasIt;
+    for (l = 0; l < arr.length; l++) {
+        if (arr[l] === item) {
+            return true;
         }
     }
-
-    return hasIt;
+    return false;
 }
 
 function Start(){
-    i= Math.floor(Math.random()*10);
-    function num(){
-        i= Math.floor(Math.random()*10);
-        arrayContains(FrasesUsadas, i);
-    }
+    var i= Math.floor(Math.random()*10);
 
-    if(arrayContains===false){
-        FrasesUsadas.push(i);
-        return i;
-    }else{
-        num();
-    }
+    
     
 
-    switch(h){
+    switch(i){
         case 0:
             i="Yo nunca he querido liarme con alguno del grupo";
             break;

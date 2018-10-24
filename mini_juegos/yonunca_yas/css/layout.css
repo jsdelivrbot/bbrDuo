@@ -6,6 +6,9 @@
     z-index: 1;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+.rndTxt {
+    color: #77f77c;
+}
 
 .middleContent {
     width: 100%;
@@ -31,6 +34,10 @@
     background: #81d4fa;
     position: absolute;
     bottom: 0px;
+    transition: all 0.3s;
+}
+.buttonsArea:active{
+    transform: rotateY(15deg);
 }
 
 .goBackContainer {
