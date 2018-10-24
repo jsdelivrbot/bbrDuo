@@ -18,6 +18,9 @@ export function registerNavBar() {
     ._xyas_navBarContainer_menuButtonLeft_icon {
         cursor: pointer;
     }
+    ._xyas_navBarContainer_menuButtonLeft_icon2{
+        cursor: pointer;
+    }
     `);
     xtag.create('nav-bar', class extends XTagElement {
         constructor() {
@@ -30,6 +33,7 @@ export function registerNavBar() {
         <div class="_xyas_navBarContainer">
             <div class="_xyas_navBarContainer_menuButtonLeft">
                 <i class="fa fa-bars _xyas_navBarContainer_menuButtonLeft_icon" style="font-size: 40px;"></i>
+                <i onclick="prueba()" class="fa fa-cannabis _xyas_navBarContainer_menuButtonLeft_icon2" style="font-size: 40px;"></i>
             </div>
         </div>`
         }

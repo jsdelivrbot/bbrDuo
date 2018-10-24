@@ -99,10 +99,10 @@ function arrContains(arr, item) {
     return false;
 }
 
-function prueba() {
+window.prueba = function prueba() {
     var num = 0;
     usedPhrases = [];
-    $("#spanText").html("0");
+    $("#textDisplay").html("0");
     for (var i = 0; i < 50000; i++) {
         try {
             var phrase = generateRandomPhrase();
@@ -115,7 +115,7 @@ function prueba() {
 
     }
 
-    $("#spanText").html(num);
+    $("#textDisplay").html(num);
 }
 
 window.rotateEventAndReload = function rotate() {
