@@ -10,7 +10,7 @@
     "normal": "node scripts/setMode.js normal",
     "all": "node scripts/setMode.js all",
     "commit": "./scripts/commit.sh",
-    "start": "http-server -c-1 -p $PORT"
+    "start": "http-server -c-1 -p 3000"
   },
   "keywords": [
     "beber"

@@ -65,14 +65,9 @@ function prueba() {
         try {
             var phrase = generateRandomPhrase();
             usedPhrases.push(phrase);
-<<<<<<< HEAD
             $(".textDisplay").html(phrase);
             num++;
         } catch (ex) {
-=======
-        }
-        catch (ex) {
->>>>>>> 9c1f4ab153cb264b2fa216e1816a56759c07ca64
             break;
         }
 
