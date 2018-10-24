@@ -1,5 +1,4 @@
 import { registerNavBar } from "./components/nav-bar.js";
-import { registerMagicCentered } from "./components/magic-centered.js";
 var playerList = ["Yasmany", "Dominic", "Walter", "Andy", "Laura", "Cristina", "Sandra"];
 var phrases = [];
 var usedPhrases = [];
@@ -14,11 +13,10 @@ async function main(params) {
         font-wheight: bold;
     }
     magic-centered {
-        transition: all 0.3s;
+        transition: all 0.2s;
     }
     `);
     registerNavBar();
-    registerMagicCentered();
 
     var frasesInteracciones = await yasgo.get("./recursos/frases/interacciones.json");
     var frasesPensamientos = await yasgo.get("./recursos/frases/pensamientos.json");
@@ -35,20 +33,40 @@ async function main(params) {
     $("#buttonNext").click(function (event) {
         btnClickNextPhrase();
     });
-    btnClickNextPhrase();
+    btnClickNextPhrase(true);
 }
 
-function btnClickNextPhrase() {
+function btnClickNextPhrase(initial) {
     var phrase = generateRandomPhrase();
     usedPhrases.push(phrase);
-    $("#textDisplay").html(phrase);
-    $("#textDisplay")[0].parentElement.resize();
+
     var anim;
 
-    $("#buttonNext").css("transform", "translateX(100%)");
-    setTimeout(function () {
-        $("#buttonNext").css("transform", "translateX(0)");
-    }, 501);
+    if (initial === undefined) {
+        $("#buttonNext").css("transform", "translateX(-100%)");
+        setTimeout(function () {
+            $("#buttonNext").css("transition", "all 0s");
+            $("#buttonNext").css("transform", "translateX(100%)");
+            setTimeout(function () {
+                $("#buttonNext").css("transition", "all 0.2s");
+                $("#buttonNext").css("transform", "translateX(0)");
+            }, 201);
+        }, 201);
+
+        $("#textDisplay").css("transform", "translateX(-120%)");
+        setTimeout(function () {
+            $("#textDisplay").css("transition", "all 0s");
+            $("#textDisplay").html(phrase);
+            $("#textDisplay").css("transform", "translateX(120%)");
+            setTimeout(function () {
+                $("#textDisplay").css("transition", "all 0.2s");
+                $("#textDisplay").css("transform", "translateX(0)");
+            }, 201);
+        }, 201);
+    } else {
+        $("#textDisplay").html(phrase);
+    }
+
 }
 
 function generateRandomPhrase() {
