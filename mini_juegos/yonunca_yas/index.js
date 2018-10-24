@@ -26,6 +26,7 @@ function initializeGame() {
                         phrases = phrases.concat(JSON.parse(situaciones).frases);
                         phrases = phrases.concat(JSON.parse(conPersonas).frases);
                         phrases = phrases.concat(JSON.parse(bailes).frases);
+                        btnClickNextPhrase();
                     });
                 });
             });
