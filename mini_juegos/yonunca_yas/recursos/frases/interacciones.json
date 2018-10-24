@@ -1,0 +1,45 @@
+{
+    "frases": [
+        {
+            "contenido": "Yo nunca he hablado con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca me he liado con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he salido de fiesta con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he bebido con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he tocado a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he insultado a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he pegado a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he acariciado a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        }
+        
+    ]
+}

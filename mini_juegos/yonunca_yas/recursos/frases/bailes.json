@@ -1,0 +1,30 @@
+{
+    "frases": [
+        {
+            "contenido": "Yo nunca he bailado con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he perreado",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he perreado con una persona del mismo sexo",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he bailado [list.musicGenres]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca he visto vídeos para aprender a bailar",
+            "nivel": "1",
+            "categoría": "interacciones"
+        }
+        
+    ]
+}
