@@ -49,10 +49,10 @@ function prueba() {
     var num = 0;
     for (var i = 0; i < 50000; i++) {
         try {
-            num++;
             var phrase = generateRandomPhrase();
             usedPhrases.push(phrase);
             $(".textDisplay").html(phrase);
+            num++;
         } catch (ex) {
             break;
         }
