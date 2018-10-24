@@ -33,6 +33,9 @@ async function main(params) {
     $("#buttonNext").click(function (event) {
         btnClickNextPhrase();
     });
+    $("._xyas_navBarContainer_menuButtonLeft_icon").click(function () {
+        rotateEventAndReload();
+    });
     btnClickNextPhrase(true);
 }
 
@@ -113,6 +116,25 @@ function prueba() {
     }
 
     $("#spanText").html(num);
+}
+
+window.rotateEventAndReload = function rotate() {
+    document.getElementsByClassName("_xyas_navBarContainer_menuButtonLeft_icon")[0].style.transition = "0.35s";
+    document.getElementsByClassName("_xyas_navBarContainer_menuButtonLeft_icon")[0].style.transform = "rotateZ(-360deg) translateY(-0px)"
+    document.getElementsByClassName("_xyas_navBarContainer_menuButtonLeft_icon")[0].style.color = "#364ec7";
+    setTimeout(function () {
+        document.getElementsByClassName("_xyas_navBarContainer_menuButtonLeft_icon")[0].style.transform = "rotateZ(0) translateY(0px)";
+        setTimeout(function () {
+            window.location.reload();
+        }, 351);
+    }, 351);
+}
+
+function rotateback() {
+    document.getElementsByClassName("btn").style.transition = "1.2s";
+    document.getElementsByClassName("btn").style.transform.rotateZ = "(180deg)"
+
+
 }
 
 yasgo(main);
