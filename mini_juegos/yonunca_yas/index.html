@@ -5,27 +5,40 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
     <link rel="manifest" href="manifest.json">
 </head>
 
-<body onload="yasgo(initializeGame);" class="noselect">
-    <div class="superiorMenu">
-        <div class="goBackContainer" onclick="window.location.reload();">
-            <i class="fa fa-chevron-left" id="buttonGoBack" style="font-size: 50px;"></i>
-        </div>
-        <button onclick="prueba()">Test</button>
-        <span id="spanText">0</span>
-
+<body class="noselect" style="background: #2271b1;">
+    <nav-bar left-icon="adjust" id="superiorNavBar"></nav-bar>
+    <div style="
+    height: calc(100% - 120px); 
+    background:inherit;">
+        <magic-centered style="padding: 20px;">
+            <div id="textDisplay" style="
+            background: #64b5f6;
+            font-size: 25px;
+            border-radius: 20px;
+            word-wrap: break-word;
+            padding: 20px;
+            "></div>
+        </magic-centered>
     </div>
-    <div class="middleContent">
-        <div class="textDisplay"></div>
-    </div>
-    <div class="buttonsArea" onclick="btnClickNextPhrase()"></div>
+    <div style="
+    width: 100%; 
+    background: #00ccec;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s;
+    "
+        id="buttonNext">Next</div>
 </body>
 
 <script src="/lib/yasgo.js"></script>
-<script src="index.js"></script>
+<script src="src/index.js" type="module"></script>
 
 </html>
