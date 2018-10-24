@@ -64,6 +64,31 @@
             "contenido": "Yo nunca tendría una relación con [list.players]",
             "nivel": "1",
             "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca confiaría en [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca tendría cojones de meterme con [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca antes había visto a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca le daría un beso a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca invitaría a una copa a [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
         }
     ]
 }

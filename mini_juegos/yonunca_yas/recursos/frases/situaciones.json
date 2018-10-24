@@ -269,6 +269,11 @@
             "contenido": "Yo nunca he hecho usando chocolate, nata u otro tipo de alimentos",
             "nivel": "3",
             "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca le daría like a esta App",
+            "nivel": "1",
+            "categoría": "situaciones"
         }
 
     ]
