@@ -89,6 +89,11 @@
             "contenido": "Yo nunca invitaría a una copa a [list.players]",
             "nivel": "1",
             "categoría": "interacciones"
+        },
+        {
+            "contenido": "Yo nunca me he llamado [list.players]",
+            "nivel": "1",
+            "categoría": "interacciones"
         }
     ]
 }

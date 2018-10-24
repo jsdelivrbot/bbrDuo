@@ -274,7 +274,16 @@
             "contenido": "Yo nunca le daría like a esta App",
             "nivel": "1",
             "categoría": "situaciones"
+        },
+        {
+            "contenido": "A mi nunca me ha gustado que me besen el cuello",
+            "nivel": "1",
+            "categoría": "situaciones"
+        },
+        {
+            "contenido": "Yo nunca he tenido granos",
+            "nivel": "1",
+            "categoría": "situaciones"
         }
-
     ]
 }
