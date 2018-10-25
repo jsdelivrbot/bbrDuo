@@ -1,0 +1,215 @@
+{
+    "frases": [
+        {
+            "contenido": "[list.players], responde o bebe: [list.quiz]"
+        }
+
+        
+    ],
+    "quizQuestions":[
+        {
+            "contenido": "¿Cómo se llamaba el personaje que interpretaba John Travolta en Grease?",
+            "respuesta": "Danny Zuko",
+            "nivel": "3",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cómo se llamaba el ejército aéreo de Hitler?",
+            "respuesta": "Luftwaffe",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Qué se celebra el 8 de marzo?",
+            "respuesta": "El día de la mujer",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué mes celebran los rusos la Revolución de Octubre?",
+            "respuesta": "Noviembre, por la diferencia de calendarios Juliano y Gregoriano",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué año tuvo lugar el ataque a Pearl Harbor?",
+            "respuesta": "Unión Soiética",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué año tuvo lugar el ataque a Pearl Harbor?",
+            "respuesta": "1941",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué año se estrenó la película de Disney Pinocho?",
+            "respuesta": "1940",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cómo se llama el último disco de Bertín Osborne?(octube 2018)",
+            "respuesta": "Yo debí enamorarme de tu madre",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cómo llamaban a Dios los testigos de Jehová?",
+            "respuesta": "Jehová",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "Los cuatro evangelistas de la Biblia son Mateo, Marcos, Lucas y...",
+            "respuesta": "Juan",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién gobernó Francia desde 1799 a 1815?",
+            "respuesta": "Napoleón Bonaparte",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cómo se llama el actor que interpreta al protagonista de la saga Indiana Jones?",
+            "respuesta": "Harrison Ford",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿A qué país pertenece la isla de Tasmania?",
+            "respuesta": "Australia",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué país está la ciudad de Cali?",
+            "respuesta": "Colombia",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Qué es la UA?",
+            "respuesta": "Unión Africana",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cual es la capital de Suiza?",
+            "respuesta": "Berna",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué cordillera están la mayoría de las grandes montañas?",
+            "respuesta": "En el Himalaya",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién vivía en el 221B de Backer Street?",
+            "respuesta": "Sherlock Holmes",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién es el autor de la obra teatral Casa de Muñecas?",
+            "respuesta": "Henrik Ibsen",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cuál fue el género más cultivado por los autores de la generación del 27?",
+            "respuesta": "Poesía",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cuál es la capital de Argelia?",
+            "respuesta": "Argel",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién interpreta la canción Baby One More Time?",
+            "respuesta": "Britney Spears",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué año se dictó la primera Constitución española?",
+            "respuesta": "1912",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué país nació el protestantismo?",
+            "respuesta": "Alemania",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quiénes fueron los Reyes Católicos?",
+            "respuesta": "Isabel I y Fernando II",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué país nació Hitler?",
+            "respuesta": "Austria",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿De qué color es el humo que informa a los creyentes de que se ha elegido un Papa nuevo?",
+            "respuesta": "blanco",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cuántos colores tiene la bandera española?",
+            "respuesta": "Dos",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cuántas estrellas tiene la bandera de China?",
+            "respuesta": "5",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Cuál es la capital de Luxemburgo?",
+            "respuesta": "Luxemburgo",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Qué es Andorra?",
+            "respuesta": "Un país",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿En qué material está esculpida la Venus de Milo?",
+            "respuesta": "Mármol",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién es el escritor de La vida es sueño?",
+            "respuesta": "Calderón de la Barca",
+            "nivel": "1",
+            "categoría": "quiz"
+        },
+        {
+            "contenido": "¿Quién es el pintor de la Capilla Sixtina?",
+            "respuesta": "Migel Ángel",
+            "nivel": "1",
+            "categoría": "quiz"
+        }
+    ]
+}
