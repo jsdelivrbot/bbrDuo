@@ -5,7 +5,7 @@ var usedPhrases = [];
 
 async function main(params) {
     await yasgo.load(yasgo.cdn["jquery"]);
-    await yasgo.load("https://rawgit.com/x-tag/core/master/dist/x-tag-polyfilled.min.js");
+    await yasgo.load("https://cdn.jsdelivr.net/gh/x-tag/core@master/dist/x-tag-polyfilled.min.js");
     yasgo.loadCss("https://use.fontawesome.com/releases/v5.4.1/css/all.css");
     yasgo.writeCss(`
     .rndTxt {
